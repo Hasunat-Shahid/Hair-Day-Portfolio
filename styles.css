@@ -1,0 +1,93 @@
+body {
+	background-color: #3bd08555;
+	font-family: 'Markazi Text', serif;
+	margin-top: 3rem;
+	margin-bottom: 3rem;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+article > img {
+	width: 15rem;
+	height: 15rem;
+}
+
+img > article {
+	width:100rem;
+	height: 25rem;
+}
+
+img {
+	width:35rem; 
+    height: 20rem;
+	border: 2px solid transparent;
+}
+
+
+img:hover {
+ border-color: black; 
+}
+
+
+
+h1 {
+	font-size: 3rem;
+}
+
+h2 {
+	font-size: 2rem;
+}
+
+header > img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.main-content {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+nav a {
+	list-style: none;
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem; 
+    transition: color 0.3s ease; 
+	padding: 1rem;
+}
+
+nav a:hover {
+    color: blue;
+}
+
+nav li {
+	display: inline-block;
+}
+
+section {
+	display:flex;
+	padding: 1rem;
+}
+
+article {
+	flex: 1;
+	padding: 1rem;
+}
+
+footer {
+	display:flex;
+}
+
+footer div {
+	flex: 1;
+}
+
+footer img {
+    width: 10rem;
+    height: auto; 
+    display: block; 
+    margin-left: auto;
+    margin-right: auto;
+}
